@@ -12,6 +12,7 @@
         <module>demo_aggregate</module>
         <module>demo-redis</module>
         <module>demo-rabbitmq</module>
+        <module>demo-jvm</module>
     </modules>
     <packaging>pom</packaging>
     <properties>
