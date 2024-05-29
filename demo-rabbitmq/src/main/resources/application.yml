@@ -1,0 +1,16 @@
+ip:
+  47.96.41.135
+
+spring:
+  rabbitmq:
+    host: ${ip}
+    port: 5672
+    username: xiongke
+    password: xiongke
+    virtual-host: /xk
+    listener:
+      simple:
+        retry:
+          enabled: true
+          max-attempts: 3
+          initial-interval: 3000
